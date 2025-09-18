@@ -1,0 +1,41 @@
+@import url("reset.css"); 
+/* * {
+    color: black;
+} */
+ h1 {
+    color: blue;
+ }
+ .text {
+    color:blueviolet
+ }
+ #section1 {
+    color:aqua
+ }
+ /* a[href$=".com"] {
+    color: chocolate;
+ } */
+  h2[class^="sub"] {
+    color:chartreuse
+  }
+[href="http://facebook.com"] {
+    color: blue;
+}
+[href="http://instagram.com"] {
+    color: green;
+}
+[href="http://linkedin.com"] {
+    color: red;
+}
+/* div,
+footer {
+    color:pink
+}
+.content h1 {
+    color: yellow
+ }
+ ul>li {
+    color:darkred
+ } */
+h2 ~ p {
+    color:aquamarine
+}
