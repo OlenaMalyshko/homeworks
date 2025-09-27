@@ -1,0 +1,171 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Space%20Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tagesschrift:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exile:wght@400&display=swap");
+@import url("fonts.css");
+body {
+    font-family: "Roboto", sans-serif;
+}
+a {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgba(24, 52, 190, 0.7);
+}
+[class="link"],
+.link-to-top {
+     color: rgba(32, 13, 245, 0.7);
+    text-transform: none;
+    font-weight: normal;
+}
+.content__title {
+    color: rgba(13, 2, 59, 0.7);
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+.article__title {
+    color: rgba(6, 13, 234, 0.9);
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+.article__subtitle {
+    color: rgba(32, 13, 245, 0.7);
+    font-size: 20px;
+    text-transform: uppercase;
+}
+span {
+    text-transform: uppercase;
+    font-style: italic;
+    color: rgba(4, 4, 78, 0.9);
+}
+.serif {
+    font-family: "TheanoDidot", serif;
+}
+.sans-serif {
+    font-family: "Roboto", sans-serif;
+}
+.cursive {
+    font-family: "Tagesschrift", cursive;
+}
+.monospace {
+    font-family: "Space Mono", monospace;
+}
+.fantasy {
+    font-family: "Exile", fantasy;
+}
+.thin {
+    font-weight: 100;
+}
+.extra-light {
+    font-weight: 200;
+}
+.light {
+    font-weight: 300;
+}
+.normal {
+    font-weight: 400;
+}
+.medium {
+    font-weight: 500;
+}
+.semi-bold {
+    font-weight: 600;
+}
+.bold {
+    font-weight: 700;
+}
+.extra-bold {
+    font-weight: 800;
+}
+.black {
+    font-weight: 900;
+}
+.italic {
+    font-style: italic;
+}
+.oblique {
+    font-style: oblique;
+}
+.green {
+    color: green;
+}
+.blue {
+    color: blue;
+}
+.red {
+    color: red;
+}
+.pink {
+    color: pink;
+}
+.center {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.justify {
+    text-align: justify;
+}
+.line-through {
+    text-decoration: line-through;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+}
+.overline {
+    text-decoration: overline;
+    text-decoration-color: chartreuse;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 2px;
+}
+.underline {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: darkgreen;
+    text-decoration-thickness: 2px;
+}
+.shadow {
+    font-size: 20px;
+    text-shadow: 2px 2px 5px red;
+}
+.multishadow {
+    font-size: 20px;
+    text-shadow:
+        2px 2px 5px red,
+        -3px -3px 5px green;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.line-height {
+    line-height: 1.2;
+}
+.line-height-2 {
+    line-height: 1.6;
+}
+.letter-spacing {
+    letter-spacing: 1.5px;
+}
+.letter-spacing-2 {
+    letter-spacing: 2px;
+}
+.word-spacing {
+    word-spacing: 10px;
+}
+.word-spacing-2 {
+    word-spacing: 20px;
+}
