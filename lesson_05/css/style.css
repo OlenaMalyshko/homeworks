@@ -1,0 +1,159 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Space%20Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tagesschrift:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exile:wght@400&display=swap");
+@import url("fonts.css");
+body {
+    font-family: "Roboto", sans-serif;
+}
+.content__wrap {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.content__title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.25;
+    text-decoration: underline;
+}
+.example-padding {
+    background-color: blue;
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+.example-margin {
+    background-color: skyblue;
+    margin-top: 15px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.example-width {
+    background-color: blueviolet;
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+.example-width-2 {
+    background-color: darkorchid;
+    max-width: 900px;
+}
+.example-height {
+    background-color: aqua;
+    max-height: 200px;
+    margin-bottom: 20px;
+}
+.example-height-2 {
+    background-color: cornflowerblue;
+    min-height: 200px;
+}
+.example-box-sizing {
+    background-color: chocolate;
+    box-sizing: border-box;
+    width: 500px;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+.example-box-sizing-2 {
+    background-color: coral;
+    box-sizing: content-box;
+    width: 500px;
+    padding: 50px;
+}
+.example-display {
+    background-color: darkgoldenrod;
+    display: inline;
+}
+.example-display-2 {
+    background-color: darkgoldenrod;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.example-display-3 {
+    background-color: darkgoldenrod;
+    display: block;
+    margin-bottom: 20px;
+}
+.example-overflow {
+    background-color: darkgreen;
+    max-width: 300px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.example-overflow-2 {
+    background-color: chartreuse;
+    max-width: 300px;
+    margin-bottom: 20px;
+    overflow: scroll;
+}
+.example-overflow-3 {
+    background-color: darkkhaki;
+    max-width: 300px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+.block__title {
+    font-size: 20px;
+    text-align: center;
+}
+.furniture {
+    max-width: 1180px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.furniture__conteiner {
+    font-family: "Lato", sans-serif;
+}
+.furniture__block-1 {
+    margin-bottom: 68px;
+}
+.furniture__block-1,
+.furniture__block-2 {
+    font-size: 0;
+    margin-left: -34px;
+    margin-right: -34px;
+}
+.furniture__title {
+    font-weight: 800;
+    color: rgba(47, 48, 44, 1);
+    font-size: 32px;
+    line-height: 1.25;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 72px;
+}
+
+.furniture__item {
+    font-size: 16px;
+    display: inline-block;
+    width: 33.3333%;
+    padding-left: 34px;
+    padding-right: 34px;
+    text-align: center;
+}
+
+.furniture__subtitle {
+    margin-bottom: 24px;
+    font-weight: 700;
+    color: rgba(47, 48, 44, 1);
+    line-height: 1.25;
+    text-align: center;
+}
+.furniture__text {
+    font-weight: 500;
+    line-height: 1.25;
+    text-align: center;
+    color: rgba(126, 127, 124, 1);
+}
+.furniture__icon {
+    margin-bottom: 24px;
+}
+.footer {
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.25;
+    text-decoration: overline;
+}
