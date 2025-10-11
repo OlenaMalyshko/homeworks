@@ -1,0 +1,60 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+body {
+    font-family: "Lato", sans-serif;
+}
+.header,
+.footer {
+    padding: 50px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.25;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(49, 49, 91);
+}
+.main {
+    background-color: rgb(109, 109, 180);
+    padding: 30px 0;
+}
+.conteiner {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.item {
+    padding: 20px;
+    background-color: rgb(149, 146, 239);
+    color: rgb(255, 255, 255);
+    line-height: 1.25;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(49, 49, 91);
+    
+}
+.item__design_left {
+    background-image: url(../img/flower-left.webp); 
+    background-repeat: no-repeat;
+    min-height: 450px;
+   
+}
+.item__design_right{
+    background-image: url(../img/flower-right.webp);
+    background-repeat: no-repeat;
+    min-height: 600px;
+    
+}
+.item__img:not(:last-child) {
+    margin-bottom: 15px;
+}
+.item:not(:last-child) {
+    margin-bottom: 15px;}
+
+.item__img img{
+    border-radius: 33px;
+}
+.footer {
+    margin-top: auto;
+}
