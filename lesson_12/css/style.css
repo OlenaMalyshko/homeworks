@@ -31,12 +31,59 @@ body {
     text-transform: uppercase;
     line-height: 1.25;
 }
-
+.page {
+    position: relative;
+}
+.cloud {
+    position: absolute;
+    z-index: 3;
+    animation-name: move;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
+    box-shadow: inset 5px 5px 20px 10px rgba(0, 0, 0, 0.052);
+    top: 10%;
+    left: 60%;
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(254, 254, 254, 0.9);
+}
+.cloud::before,
+.cloud::after {
+    content: "";
+    box-shadow: inset 5px 5px 20px 10px rgba(0, 0, 0, 0.052);
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgba(254, 254, 254, 0.9);
+    top: 25%;
+}
+.cloud::before {
+    right: 70%;
+}
+.cloud::after {
+    left: 70%
+}
+.sun {
+    animation: glow 2s linear infinite alternate;
+    position: absolute;
+    z-index: 2;
+    right: 20%;
+    top: 10%;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 140, 0, 0.9);
+    border-radius: 50%;
+    box-shadow: 0 0 20px 30px rgba(255, 255, 0, 0.7);
+}
 .car__conteiner {
     position: relative;
     width: 100%;
-    min-height: 800px;
-    background: url("../img/road.webp") 0 0 / cover no-repeat;
+    min-height: 1000px;
+    background: url("../img/road.webp") 0 0 /cover no-repeat;
 }
 
 .car__body {
@@ -158,14 +205,21 @@ body {
     height: 100px;
 
 }
-
+@keyframes glow {
+    0% {
+        scale: 0.8;
+    }
+    100% {
+        scale: 1;
+    }
+}
 @keyframes move {
     0% {
-        left: 0;
+        left: 10%;
     }
 
     100% {
-        left: 100%;
+        left: 80%;
     }
 }
 
