@@ -105,11 +105,11 @@ body {
 }
 
 .actions__link--heart {
-    background: url("/img/heart.svg") left no-repeat;
+    background: url("../img/heart.svg") left no-repeat;
 }
 
 .actions__link--cart {
-    background: url("/img/cart.svg") left no-repeat;
+    background: url("../img/cart.svg") left no-repeat;
 }
 
 @media (width <=1422px) {
